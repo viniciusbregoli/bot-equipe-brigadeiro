@@ -26,6 +26,12 @@ app.post("/bot", (req, res) => {
     const twiml = new MessagingResponse();
     const telefone = req.body.From.substring(12);
 
+    client.query("INSERT INTO mensagem (telefone, texto, hora) VALUES ($1, $2, $3)", [telefone, req.body.Body, new Date()], (err) => {
+        if (err) {
+            console.log("Ocorreu um erro ao inserir os dados no banco de dados: ", err);
+        }
+    });
+
     if (req.body.Body.startsWith("SETNOME")) {
         const nomeVendedor = req.body.Body.substring(8);
 
