@@ -4,11 +4,11 @@ Esse projeto foi feito com objetivo de criar um bot de whatsapp para facilitar a
  
 ## Como funciona e ferramentas utilizadas
 
-O bot funciona com o Twilio, que é uma plataforma de comunicação em nuvem, que permite enviar e receber mensagens de texto pelo whatsapp.
+O bot funciona com o Twilio, uma plataforma de comunicação em nuvem, que permite enviar e receber mensagens de texto pelo whatsapp.
 
- Também utilizamos o ngrok, que é uma ferramenta que cria um túnel para a internet, permitindo que o Twilio se comunique com o nosso servidor localmente, que é rodado com o Node.js, ferramenta escolhida por ser simples e rápida de se desenvolver.
+ Também utilizamos o ngrok, ferramenta que cria um túnel para a internet, permitindo que o Twilio se comunique com o nosso servidor localmente, rodado com o Node.js, ferramenta escolhida por ser simples e rápida de se desenvolver.
 
- Por último, para registrar os vendedores e as vendas, utilizamos o Postgres, que é um banco de dados relacional, que permite armazenar os dados de forma organizada e segura.
+ Por último, para registrar os vendedores e as vendas, utilizamos o Postgresql, que é um banco de dados relacional, que permite armazenar os dados de forma organizada e segura.
 
  ## Funcionalidades
 
@@ -70,7 +70,7 @@ CREATE TABLE public.mensagem (
 
 ### Ngrok
 
-Lembrar de setar a conta também
+Lembrar de setar a conta também.
 
 https://ngrok.com/download
 
