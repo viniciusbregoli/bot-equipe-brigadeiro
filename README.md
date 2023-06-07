@@ -2,7 +2,7 @@
 
 Esse projeto foi feito com objetivo de criar um bot de whatsapp para facilitar a venda de brigadeiros da Equipe PUCPR de robótica móvel, para arrecadar fundos para os projetos e competições.
  
-## Como funciona e ferramentas utilizadas
+## Ferramentas utilizadas
 
 O bot funciona com o Twilio, uma plataforma de comunicação em nuvem, que permite enviar e receber mensagens de texto pelo whatsapp.
 
